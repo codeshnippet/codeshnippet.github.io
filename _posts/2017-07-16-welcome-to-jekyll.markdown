@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Code Shnippet!"
 date:   2017-07-16 21:54:35 +0200
 categories: jekyll update
 ---
