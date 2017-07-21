@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Buying and selling a stock."
+title:  "Buying and selling a stock"
 date:   2017-07-16 21:54:35 +0200
 categories: interview algorithm
 ---
 
-This post could be useful to both sides: the interviewer and the interviewee. But it mostly targets the former.
 What makes a good technical interview question? In my opinion, most important are the following qualities:
 - Simple to explain and understand;
 - Problem has multiple solutions;
-- Problem complexity can be easily increased or decreased;
+- Problem complexity can be increased or decreased;
+- Solution is not trivial;
 <br>
 
-Lets take a look at an example of a **good** technical interview question:  
+Here is an example of a **good** technical interview question:  
 > Design an algorithm that determines maximum profit that could have been made by buying and selling a single share over a given day range.
 <br>
 
@@ -36,7 +36,7 @@ We expect the algorithm to return the maximum profit value. For the input above 
 {% endhighlight %}  
 (If we buy at 52 and sell at 58)
 
-interviewee may suggest finding minimum and maximum values of the array and returning the difference.
+Interviewee may suggest finding minimum and maximum values of the array and returning the difference.
 But this approach is not going to work for cases when maximum price appears in the array before minimum price.
 As you can see in the example above, neither 52 is a minimum, nor 58 is a maximum.
 
@@ -65,7 +65,7 @@ When this is the case, buy must be in the minimum of the first subarray and sell
 
 Click on [RecursiveCalculator.java]{:target="_blank"} to view full class code.
 
-I've read somewhere, that a good developer should be able to write that solution in 20-30 minutes.
+A good developer should be able to write that solution in 20-30 minutes.
 
 ### Linear-time solution
 

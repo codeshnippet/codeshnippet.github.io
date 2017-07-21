@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-19T22:59:57+02:00</updated><id>http://localhost:4000/</id><title type="html">Code Shnippet</title><subtitle>Code Shnippet is yet another coding blog that will cover topics useful to share.
-</subtitle><entry><title type="html">Buying and selling a stock.</title><link href="http://localhost:4000/interview/algorithm/2017/07/16/buying-and-selling-a-stock.html" rel="alternate" type="text/html" title="Buying and selling a stock." /><published>2017-07-16T21:54:35+02:00</published><updated>2017-07-16T21:54:35+02:00</updated><id>http://localhost:4000/interview/algorithm/2017/07/16/buying-and-selling-a-stock</id><content type="html" xml:base="http://localhost:4000/interview/algorithm/2017/07/16/buying-and-selling-a-stock.html">&lt;p&gt;This post could be useful to both sides: the interviewer and the interviewee. But it mostly targets the former.
-What makes a good technical interview question? In my opinion, most important are the following qualities:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-21T21:02:14+02:00</updated><id>http://localhost:4000/</id><title type="html">Code Shnippet</title><subtitle>Code Shnippet is yet another coding blog that will cover topics useful to share.
+</subtitle><entry><title type="html">Buying and selling a stock</title><link href="http://localhost:4000/interview/algorithm/2017/07/16/buying-and-selling-a-stock.html" rel="alternate" type="text/html" title="Buying and selling a stock" /><published>2017-07-16T21:54:35+02:00</published><updated>2017-07-16T21:54:35+02:00</updated><id>http://localhost:4000/interview/algorithm/2017/07/16/buying-and-selling-a-stock</id><content type="html" xml:base="http://localhost:4000/interview/algorithm/2017/07/16/buying-and-selling-a-stock.html">&lt;p&gt;What makes a good technical interview question? In my opinion, most important are the following qualities:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Simple to explain and understand;&lt;/li&gt;
   &lt;li&gt;Problem has multiple solutions;&lt;/li&gt;
-  &lt;li&gt;Problem complexity can be easily increased or decreased;
+  &lt;li&gt;Problem complexity can be increased or decreased;&lt;/li&gt;
+  &lt;li&gt;Solution is not trivial;
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Lets take a look at an example of a &lt;strong&gt;good&lt;/strong&gt; technical interview question:&lt;/p&gt;
+&lt;p&gt;Here is an example of a &lt;strong&gt;good&lt;/strong&gt; technical interview question:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Design an algorithm that determines maximum profit that could have been made by buying and selling a single share over a given day range.
 &lt;br /&gt;&lt;/p&gt;
@@ -38,7 +38,7 @@ Since stock price changes during the day, for simplicity, we’ll assume, that p
 
 &lt;p&gt;(If we buy at 52 and sell at 58)&lt;/p&gt;
 
-&lt;p&gt;interviewee may suggest finding minimum and maximum values of the array and returning the difference.
+&lt;p&gt;Interviewee may suggest finding minimum and maximum values of the array and returning the difference.
 But this approach is not going to work for cases when maximum price appears in the array before minimum price.
 As you can see in the example above, neither 52 is a minimum, nor 58 is a maximum.&lt;/p&gt;
 
@@ -69,7 +69,7 @@ When this is the case, buy must be in the minimum of the first subarray and sell
 
 &lt;p&gt;Click on &lt;a href=&quot;https://github.com/codeshnippet/BuySellStock/blob/master/src/main/java/com/codeshnippet/buysellstock/calculators/RecursiveCalculator.java&quot; target=&quot;_blank&quot;&gt;RecursiveCalculator.java&lt;/a&gt; to view full class code.&lt;/p&gt;
 
-&lt;p&gt;I’ve read somewhere, that a good developer should be able to write that solution in 20-30 minutes.&lt;/p&gt;
+&lt;p&gt;A good developer should be able to write that solution in 20-30 minutes.&lt;/p&gt;
 
 &lt;h3 id=&quot;linear-time-solution&quot;&gt;Linear-time solution&lt;/h3&gt;
 
@@ -86,4 +86,4 @@ If the difference between current element and minimum seen so far is greater tha
 
 &lt;h3 id=&quot;candidate-evaluation&quot;&gt;Candidate evaluation&lt;/h3&gt;
 
-&lt;p&gt;A good candidate should be able to come up with the brute-force solution on his own, recursive and linear solution with minor hints. He should also be able to implement the recursive solution and explain the testing strategy.&lt;/p&gt;</content><author><name></name></author><summary type="html">This post could be useful to both sides: the interviewer and the interviewee. But it mostly targets the former. What makes a good technical interview question? In my opinion, most important are the following qualities: Simple to explain and understand; Problem has multiple solutions; Problem complexity can be easily increased or decreased;</summary></entry></feed>
+&lt;p&gt;A good candidate should be able to come up with the brute-force solution on his own, recursive and linear solution with minor hints. He should also be able to implement the recursive solution and explain the testing strategy.&lt;/p&gt;</content><author><name></name></author><summary type="html">What makes a good technical interview question? In my opinion, most important are the following qualities: Simple to explain and understand; Problem has multiple solutions; Problem complexity can be increased or decreased; Solution is not trivial;</summary></entry></feed>
